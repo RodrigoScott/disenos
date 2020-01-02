@@ -214,35 +214,6 @@ class ButtonsPage extends StatelessWidget {
    );
 
 
-   /*return ClipRRect(
-      child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 5.0,sigmaY: 5.0),
-        child: Container(
-          height: 150,
-          width: 150,
-          margin: EdgeInsets.all(10.0),
-          decoration: BoxDecoration(
-              color: Color.fromRGBO(62, 66, 107, 0.7),
-              borderRadius: BorderRadius.circular(20.0)
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              SizedBox(height: 10,),
-              CircleAvatar(
-                backgroundColor: color,
-                radius: 30.0,
-                child: Icon(icon, color: Colors.white,),
-              ),
-              Text(text, style: TextStyle(color: color, fontSize: 18),),
-              SizedBox(height: 10,),
-            ],
-          ),
-
-        ),
-      ),
-    );*/
-
  }
 
 
